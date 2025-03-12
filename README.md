@@ -72,3 +72,23 @@ from transformers import LlavaForConditionalGeneration, AutoProcessor
 model = LlavaForConditionalGeneration.from_pretrained("llava-hf/llava-1.5-7b-hf")
 processor = AutoProcessor.from_pretrained("llava-hf/llava-1.5-7b-hf")
 # See full example in examples/visual_reasoning.ipynb
+
+### Advanced Guides
+Fine-tuning MLLMs for Math Reasoning
+Tool-Augmented Reasoning with Python
+
+## 📈 Evaluation
+Leaderboard (MATH Dataset)
+Model	Accuracy	Paper
+GPT-4	92.5%	OpenAI (2023)
+LLEMMA-34B	85.2%	LLEMMA Paper
+
+## 🤝 Contribution Guidelines
+​Add a Paper: Submit a PR with a link to the paper and code.
+​Fix Errors: Open an Issue with "bug" label.
+​Formatting: Use markdown tables for papers/datasets.
+See CONTRIBUTING.md for details.
+
+## 📜 License
+This project is licensed under the MIT License.
+Please cite original papers when using their code/data.
