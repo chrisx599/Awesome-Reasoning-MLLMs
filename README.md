@@ -72,6 +72,7 @@ from transformers import LlavaForConditionalGeneration, AutoProcessor
 model = LlavaForConditionalGeneration.from_pretrained("llava-hf/llava-1.5-7b-hf")
 processor = AutoProcessor.from_pretrained("llava-hf/llava-1.5-7b-hf")
 # See full example in examples/visual_reasoning.ipynb
+```
 
 ### Advanced Guides
 Fine-tuning MLLMs for Math Reasoning
@@ -92,3 +93,4 @@ See CONTRIBUTING.md for details.
 ## 📜 License
 This project is licensed under the MIT License.
 Please cite original papers when using their code/data.
+
